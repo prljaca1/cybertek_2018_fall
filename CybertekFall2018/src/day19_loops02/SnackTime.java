@@ -14,7 +14,7 @@ public class SnackTime {
 		int apples=1;
 		
 		while (hungry ) {
-			System.out.println("I am eating an apple");
+			System.out.println("I am eating an apple.");
 			//apples++;when apples inside if conditions it is not became expecting number  
 			if(apples>=5) {
 				hungry=false;
