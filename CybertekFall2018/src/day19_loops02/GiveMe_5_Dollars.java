@@ -17,7 +17,7 @@ public class GiveMe_5_Dollars {
 		
 		do {
 			
-			System.out.println("Give me 5 BUCKS"); 
+			System.out.println("Give me 5 Bucks"); 
 		amount=input.nextInt();
 		
 		}while(amount!=5);
