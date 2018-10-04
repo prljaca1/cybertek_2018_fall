@@ -17,19 +17,35 @@ public class GiveMe_5_Dollars {
 		
 		do {
 			
-			System.out.println("Give me 5 Bucks"); 
+			System.out.println("Give me 5 Bucks");
+			tries+=1;
 		amount=input.nextInt();
 		
-		}while(amount!=5);
+		}while(amount!=5 && tries<=3);
+		
+			if(amount==5)
+			{
+			    System.out.println("THANK YOU FOR $ 5 ");
+		} else {				 
 			
-			System.out.println("THANK YOU FOR $ 5");
+			System.out.println("You tried 3 times");
+			}
+//			
+//				
+//			do {
+//				tries+=1;
+//				System.out.println("Give me 5 Bucks"); 
+//			amount=input.nextInt();
+//			
+//			}while(amount!=5 && tries<=3);
+//				
+//				System.out.println(tries>=3?"You  tried more than 3 times":"THANK YOU FOR $ 5");
+//				
+//	
+			input.close();
 			
 			
-		}
-		
-		
-		
-		
-	} 
+	}
+} 
 
 
