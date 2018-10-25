@@ -29,8 +29,9 @@ public class ArrayPrintReserve {
 	System.out.print(scores[idx]+ " ");
 	
 	}
+	//2.solution:
 	
-	System.out.println("\n-----While Loop-----");
+   System.out.println("\n-----While Loop-----");
 	
 	int i=scores.length-1;
 	
@@ -46,5 +47,5 @@ public class ArrayPrintReserve {
 	
 	
 	
-	}
+ }
 }

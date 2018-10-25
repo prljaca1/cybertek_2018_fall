@@ -30,7 +30,7 @@ public class PrintArraysValues {
 	     System.out.println();
 	     
 	     
-	     // For wach loop only works with arrays or other data collections/structures.
+	     // For each loop only works with arrays or other data collections/structures.
          
       //  for(Type0fArray tempVariable: arrayName) ;
          
