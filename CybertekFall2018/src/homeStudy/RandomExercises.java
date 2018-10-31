@@ -34,8 +34,20 @@ public class RandomExercises {
 	
 //	
 
-	 
-	 
+
+			int age =40;
+
+			if(age<=40) {
+
+			System.out.print(40);
+
+			System.out.print(40);
+
+	}
+
+			}
+
+			
 		
 		
 		
@@ -50,6 +62,6 @@ public class RandomExercises {
 	
 		         
 		
-		}
+		
 
 
